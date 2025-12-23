@@ -15,52 +15,52 @@ for _ in range(10):
     x += 2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     y += 10
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     x += -2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     y += 2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     x += 6
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     y += -2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     x += -2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     y += -10
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     x += 2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     y += -2
     t.pd()
     t.goto(x * k, y * k)
-    
+
     t.pu()
     x += -6
     t.pd()

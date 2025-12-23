@@ -23,7 +23,7 @@ t.pu()
 
 for x in range(-60, 120):
     for y in range(-70, 70):
-        t.goto(x*k, y*k)
+        t.goto(x * k, y * k)
         t.dot(5, 'blue')
 t.goto(0, 0)
 t.dot(8, 'red')
